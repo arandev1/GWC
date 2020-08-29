@@ -1,45 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    
-    <!-- TODO: Update the title of your website -->
-    <title>Amrit Randev</title>
-    
+    <title>Generation Quiz</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/styles.css">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
-  </head>
+  </head>  
   <body>
+  <h1>Build your dream vacation and see what generation you belong to</h1>
+  
+    <h2>Pick a rental car </h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img src="https://cdn.glitch.com/5a96e7e2-29d4-49f6-9532-2518f05bf101%2F73db7a93-906a-4afd-a10b-d77347cbb503.image.png?v=1594358322654">
+        <br>
+        <button id="q1a1">Convertible</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://cdn.glitch.com/5a96e7e2-29d4-49f6-9532-2518f05bf101%2Fraivis-razgals-ostLWBW4hsw-unsplash.jpg?v=1594359435676">
+        <br>
+        <button id="q1a2">Hybrid</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://cdn.glitch.com/5a96e7e2-29d4-49f6-9532-2518f05bf101%2F1b424ef5-a6c5-4df4-a881-1bc5e58d0233.image.png?v=1594359933099">
+        <br>
+        <button id="q1a3">SUV</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://cdn.glitch.com/5a96e7e2-29d4-49f6-9532-2518f05bf101%2Fhanson-lu--Avc2AiE1_Q-unsplash.jpg?v=1594360164368">      
+        <br>
+        <button id="q1a4">RV</button>
+      </div>
+    </div> 
     
-    <!-- TODO: Update the heading with the name of your website -->
-    <h1>I am Amrit Randev</h1>
+    <h2>Which country would you be in?</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img src="https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80">
+        <br>
+        <button id="q2a1">Switzerland</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=771&q=80">
+        <br>
+        <button id="q2a2">Japan</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80">
+        <br>
+        <button id="q2a3">France</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://images.unsplash.com/photo-1494948949099-1311f3e907a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80">
+        <br>
+        <button id="q2a4">Thailand</button>
+      </div>
+    </div> 
     
-    <!-- TODO: Continue to add content to your homepage using your wireframe as a guide.-->
-
-    <h2>Welcome & enjoy your stay :)</h2>
-
-    <!-- TODO: Add a <div> container around sections of your homepage. -->
-    <div>
-    <img src="https://cdn.glitch.com/f1cfd701-5369-448e-90aa-f6449cbfaa84%2F106419820_272059853888056_2796639131919286146_n.jpg?v=1594197402531" width="200px">
+    <h2>What attraction are you visiting?</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img src="https://images.unsplash.com/photo-1518998053901-5348d3961a04?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80">
+        <br>
+        <button id="q3a1">Museum</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://images.unsplash.com/photo-1532452119098-a3650b3c46d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80">
+        <br>
+        <button id="q3a2">Club</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://images.unsplash.com/photo-1527489377706-5bf97e608852?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=827&q=80">
+        <br>
+        <button id="q3a3">National Park</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://images.unsplash.com/photo-1427301229091-8cd171473e32?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80">
+        <br>
+        <button id="q3a4">Amusement Park</button>
+      </div>
+    </div> 
+    
+    <div class="result">
+      <h2 id="result">Your result is... </h2>
     </div>
-  <div>Born and raised in the Bay Area, I am currently a full time student in the chase to find an intriguing career all while balancing day-to-day chores, classes, & preparing for college apps. I believe that everyday is a new day and that it's never too late to explore something new because life is too short for regrets. </div>
- 
-    
-    
-    
-    
-    <!-- TODO: Add a navigation bar  -->
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-      </ul>
-  </nav>
-    
-    
-    
-    
   </body>
 </html>
