@@ -1,48 +1,34 @@
-# Activist Toolkit Project
+# Personal Website Starter Project
 
-This is a place for you to start building your personal project in week 2.
+This is a place for you to start building your first project -- your personal website!
 
 ## Project Requirements
-You will:
-- Build a multipage website using HTML, CSS, and JavaScript.
-- Use CSS and background image properties to create a parallax scroll effect on the homepage of your website.
-- Use the DOM, functions, event listeners, and JavaScript events to create an action item checklist.
-- Use flexbox to layout your website.
-- Customize the look and feel of your site through colors, images, and  fonts using CSS. 
-- Use comments to describe your code.
-
-
+Your project should:
+- Include one "Home" HTML page (that will be index.html) that's all about you!
+- Include one "Portfolio" HTML page that will showcase the projects you build in class.
+- Include a navigation bar that is included on all your website's pages.
+- Have all text, image(s), links, and/or videos on the page contained within appropriate HTML elements.
 
 ## Extensions
 You can extend your project further by:
-- Customizing the CSS of your site. 
-- Adding accessibility features to your website. 
-- Adding a resources page where your audience can get more information. 
-- Adding social media buttons so your audience can spread the word. 
-- Adding additional media like videos, audio, image galleries, etc. to enhance your message.
-
-## Image Attributions
-- Insert here
+- Creating a "Blog" HTML page that you can use to write blog posts with your readers!
+- Adding accessibility features to your website.
 
 # Starter Code File Overview
+
 Your full activity instructions are in HQ, but here's a little cheat-sheet of the files in this project:
 
 ## ← index.html
+
 This is your homepage. It should be the first page that you work on.
 
+## ← portfolio.html
+This will be your portfolio page.  
+
 ## ← script.js
-Later this week, you'll edit this file to create your checklist.
+
+Later this week, you'll get fancy with the ability to add interactivity to your site with JavaScript. For now, there's no need to edit this file!
 
 ## ← styles.css
-ThIS file contains the CSS rule sets for index.html and any universal elements for all pages. 
-We've already included a lot of them for you, but you should customize it as you want.
 
-## ← take-action.html
-This will hold your action item checklist and action description.
-
-## ← take-action.css
-This file contains the CSS rule set for take-action.html.
-
----
-
-###### *NOTE: This project is adapted from the How To Create a To Do List by W3 Schools*
+The file for your styles! You don't need to worry about editing this file right now. You'll learn more about CSS styling tomorrow. 
